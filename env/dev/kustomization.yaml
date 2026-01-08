@@ -4,6 +4,8 @@ resources:
 - ../../base
 namespace: guestbook-simple-dev
 images:
+- name: ghcr.io/dhamodaranvt/guestbook
+  newTag: v1.0.4
 - name: ghcr.io/initcron/guestbook
   newTag: v1.0.4
 patches:
